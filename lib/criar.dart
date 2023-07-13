@@ -184,7 +184,7 @@ class _Inicio extends State<Inicio> {
                                       b=devices[i].name.toString()+'  '+ devices[i].address.toString();
                                       print("endereco:$b");
                                       setState(() {
-                                        lista.add(c);
+                                        lista.add(b);
                                         lista1.add(d);
                                       });
                                       }
